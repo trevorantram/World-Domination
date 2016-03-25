@@ -14,6 +14,13 @@
 		C109F5571C9B36D900F85EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C109F5551C9B36D900F85EBB /* Main.storyboard */; };
 		C109F5591C9B36D900F85EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C109F5581C9B36D900F85EBB /* Assets.xcassets */; };
 		C109F55C1C9B36D900F85EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C109F55A1C9B36D900F85EBB /* LaunchScreen.storyboard */; };
+		C1220F001C9E2CA900857E7A /* China.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1220EFF1C9E2CA900857E7A /* China.swift */; };
+		C1500A051C9B56B40032CD8D /* scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1500A041C9B56B40032CD8D /* scene2.swift */; };
+		C1500A071C9B5B020032CD8D /* Hitman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1500A061C9B5B020032CD8D /* Hitman.mp3 */; };
+		C1500A091C9B5DD50032CD8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1500A081C9B5DD50032CD8D /* AVFoundation.framework */; };
+		C1AAF38D1C9DB149006B0EE7 /* Black Vortex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1AAF38C1C9DB149006B0EE7 /* Black Vortex.mp3 */; };
+		C1BB61E31C9B6B4B00A6B4D2 /* USA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB61E21C9B6B4B00A6B4D2 /* USA.swift */; };
+		C1BB61E51C9B6E6100A6B4D2 /* AttackOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB61E41C9B6E6100A6B4D2 /* AttackOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		C109F5581C9B36D900F85EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C109F55B1C9B36D900F85EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C109F55D1C9B36D900F85EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1220EFF1C9E2CA900857E7A /* China.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = China.swift; sourceTree = "<group>"; };
+		C1500A041C9B56B40032CD8D /* scene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scene2.swift; sourceTree = "<group>"; };
+		C1500A061C9B5B020032CD8D /* Hitman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hitman.mp3; path = ../Hitman.mp3; sourceTree = "<group>"; };
+		C1500A081C9B5DD50032CD8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C1AAF38C1C9DB149006B0EE7 /* Black Vortex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Vortex.mp3"; sourceTree = "<group>"; };
+		C1BB61E21C9B6B4B00A6B4D2 /* USA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USA.swift; sourceTree = "<group>"; };
+		C1BB61E41C9B6E6100A6B4D2 /* AttackOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttackOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1500A091C9B5DD50032CD8D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,7 @@
 		C109F5411C9B36D900F85EBB = {
 			isa = PBXGroup;
 			children = (
+				C1500A081C9B5DD50032CD8D /* AVFoundation.framework */,
 				C109F54C1C9B36D900F85EBB /* World Domination */,
 				C109F54B1C9B36D900F85EBB /* Products */,
 			);
@@ -61,9 +77,15 @@
 				C109F54D1C9B36D900F85EBB /* AppDelegate.swift */,
 				C109F54F1C9B36D900F85EBB /* GameScene.sks */,
 				C109F5511C9B36D900F85EBB /* GameScene.swift */,
+				C1500A041C9B56B40032CD8D /* scene2.swift */,
+				C1BB61E21C9B6B4B00A6B4D2 /* USA.swift */,
+				C1220EFF1C9E2CA900857E7A /* China.swift */,
+				C1BB61E41C9B6E6100A6B4D2 /* AttackOptions.swift */,
 				C109F5531C9B36D900F85EBB /* GameViewController.swift */,
 				C109F5551C9B36D900F85EBB /* Main.storyboard */,
 				C109F5581C9B36D900F85EBB /* Assets.xcassets */,
+				C1500A061C9B5B020032CD8D /* Hitman.mp3 */,
+				C1AAF38C1C9DB149006B0EE7 /* Black Vortex.mp3 */,
 				C109F55A1C9B36D900F85EBB /* LaunchScreen.storyboard */,
 				C109F55D1C9B36D900F85EBB /* Info.plist */,
 			);
@@ -129,9 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C109F5501C9B36D900F85EBB /* GameScene.sks in Resources */,
+				C1AAF38D1C9DB149006B0EE7 /* Black Vortex.mp3 in Resources */,
 				C109F55C1C9B36D900F85EBB /* LaunchScreen.storyboard in Resources */,
 				C109F5591C9B36D900F85EBB /* Assets.xcassets in Resources */,
 				C109F5571C9B36D900F85EBB /* Main.storyboard in Resources */,
+				C1500A071C9B5B020032CD8D /* Hitman.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C109F5521C9B36D900F85EBB /* GameScene.swift in Sources */,
+				C1500A051C9B56B40032CD8D /* scene2.swift in Sources */,
 				C109F5541C9B36D900F85EBB /* GameViewController.swift in Sources */,
+				C1220F001C9E2CA900857E7A /* China.swift in Sources */,
+				C1BB61E31C9B6B4B00A6B4D2 /* USA.swift in Sources */,
+				C1BB61E51C9B6E6100A6B4D2 /* AttackOptions.swift in Sources */,
 				C109F54E1C9B36D900F85EBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,6 +324,7 @@
 				C109F5621C9B36D900F85EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
